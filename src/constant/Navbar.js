@@ -1,38 +1,39 @@
 export const Nav_data = [
-  {
-    id: 1,
-    title: "Home",
-    link: "/",
-    dropdown: false,
-  },
-  {
-    id: 1,
-    title: "Services",
-    link: "/",
-    dropdown: false,
-  },
-  {
-    id: 1,
-    title: "About",
-    link: "/",
-    dropdown: false,
-  },
-  {
-    id: 1,
-    title: "Work",
-    link: "/",
-    dropdown: false,
-  },
-  {
-    id: 1,
-    title: "Case study",
-    link: "/",
-    dropdown: [
-      {
-        id: 1,
-        title: "Work",
-        link: "/",
-      },
-    ],
-  },
+	{
+		id: 1,
+		title: 'Home',
+		link: '/',
+		dropdown: false,
+	},
+	{
+		id: 2,
+		title: 'Services',
+		link: '/services',
+		dropdown: false,
+	},
+	{
+		id: 3,
+		title: 'About Us',
+		link: '/about_us',
+		dropdown: false,
+	},
+	{
+		id: 4,
+		title: 'Work',
+		link: '/work',
+		dropdown: false,
+	},
+	{
+		id: 5,
+		title: 'Case Study',
+		link: '/case_stydy',
+		dropdown: false,
+	},
 ];
+
+export const nav_branding = 'DEPTH SEARCH';
+
+export const nav_button = {
+	title: "Let's talk",
+	link: '/',
+};
