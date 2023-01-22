@@ -1,5 +1,6 @@
 export const Nav_data = [
 	{
+<<<<<<< HEAD
 		id: 1,
 		title: 'Home',
 		link: '/',
@@ -28,6 +29,11 @@ export const Nav_data = [
 		title: 'Case Study',
 		link: '/case_stydy',
 		dropdown: false,
+=======
+		id: 01,
+		title: 'Home',
+		link: '/',
+>>>>>>> eefc4dd9bbf38c13b4d4488262449321d47146a7
 	},
 ];
 
