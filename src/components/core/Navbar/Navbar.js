@@ -5,13 +5,13 @@ import { Nav_data, nav_branding, nav_button } from '../../../constant/Navbar';
 const Navbar = () => {
 	return (
 		<div className="container">
-			<div className="navbar bg-#28292D">
+			<div className="navbar">
 				<div className="">
 					<div className="dropdown">
 						<label tabindex="0" className="btn btn-ghost lg:hidden">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
-								className="h-5 w-5"
+								className="h-5 w-5 text-white"
 								fill="none"
 								viewBox="0 0 24 24"
 								stroke="currentColor"
@@ -26,11 +26,15 @@ const Navbar = () => {
 						</label>
 						<ul
 							tabindex="0"
-							className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+							className="menu menu-compact dropdown-content mt-3 p-2 shadow text-slate-500 rounded-box w-52"
 						>
 							{Nav_data.map((items, index) => (
-								<li key={index} tabindex="0">
-									<a href={items?.link}>
+								<li
+									key={index}
+									tabindex="0"
+									className="text-slate-300 hover:text-white"
+								>
+									<Link href={items?.link}>
 										{items.title}
 										{items.dropdown && (
 											<svg
@@ -43,12 +47,12 @@ const Navbar = () => {
 												<path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
 											</svg>
 										)}
-									</a>
+									</Link>
 									<ul class="p-2 bg-#110706">
 										{items.dropdown &&
 											items.dropdown.map((items1, index) => (
 												<li key={index}>
-													<a href={items1?.link}>{items1?.title}</a>
+													<Link href={items1?.link}>{items1?.title}</Link>
 												</li>
 											))}
 									</ul>
@@ -56,13 +60,19 @@ const Navbar = () => {
 							))}
 						</ul>
 					</div>
-					<a className="btn btn-ghost normal-case lg:text-xl">{nav_branding}</a>
+					<a className="btn btn-ghost text-slate-300 hover:text-white normal-case lg:text-xl">
+						{nav_branding}
+					</a>
 				</div>
 				<div className=" hidden lg:flex">
 					<ul className="menu menu-horizontal px-1">
 						{Nav_data.map((items, index) => (
-							<li key={index} tabindex="0">
-								<a href={items?.link}>
+							<li
+								key={index}
+								tabindex="0"
+								className="text-slate-300 hover:text-white"
+							>
+								<Link href={items?.link}>
 									{items.title}
 									{items.dropdown && (
 										<svg
@@ -75,12 +85,12 @@ const Navbar = () => {
 											<path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
 										</svg>
 									)}
-								</a>
+								</Link>
 								<ul class="p-2 bg-#110706">
 									{items.dropdown &&
 										items.dropdown.map((items1, index) => (
 											<li key={index}>
-												<a href={items1?.link}>{items1?.title}</a>
+												<Link href={items1?.link}>{items1?.title}</Link>
 											</li>
 										))}
 								</ul>
@@ -88,10 +98,10 @@ const Navbar = () => {
 						))}
 					</ul>
 				</div>
-				<div className="">
-					<Link href={nav_button.link} className="btn">
+				<div>
+					<button className="rounded-full btn btn-outline btn-white text-white mr-5">
 						{nav_button.title}
-					</Link>
+					</button>
 				</div>
 			</div>
 		</div>
