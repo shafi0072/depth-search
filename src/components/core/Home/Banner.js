@@ -5,7 +5,7 @@ const Banner = () => {
 	return (
 		<section className="container pt-1">
 			<div className=" min-screen bg-[#23202A]">
-				<div className="hero-content flex-col lg:flex-row-reverse">
+				<div className="hero-content flex-col lg:flex-row-reverse p-5">
 					<img
 						src="/img/banner_img.jpg"
 						className="w-75 rounded-lg shadow-2xl ml-3"
