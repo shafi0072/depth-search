@@ -6,7 +6,7 @@ const Navbar = () => {
 	return (
 		<div className="container">
 			<div className="navbar">
-				<div className="">
+				<div className="navbar-font">
 					<div className="dropdown">
 						<label tabindex="0" className="btn btn-ghost lg:hidden">
 							<svg
