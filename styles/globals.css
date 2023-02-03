@@ -17,12 +17,12 @@
 }
 
 .text-background-color {
-	background-image: linear-gradient(to right, rgb(80, 77, 77), rgb(19, 18, 18));
+	background-image: linear-gradient(to right, rgb(80, 77, 77), rgb(56, 54, 54));
 	color: rgb(214, 211, 211);
 	font-size: 18px;
 	width: 150px;
 	text-align: center;
-	padding: 10px;
+	padding: 4px;
 	border-top-right-radius: 20px;
 	border-top-left-radius: 20px;
 	border-bottom-right-radius: 20px;

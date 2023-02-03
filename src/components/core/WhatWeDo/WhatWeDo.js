@@ -18,16 +18,18 @@ const index = () => {
 			</h3>
 			<div className="hero min-h-screen">
 				<div className="hero-content flex-col lg:flex-row-reverse">
-					<div className="flex ">
-						<div className="mr-2">
-							<img className="rounded-lg" src={WhatWeDo.img1} alt="" />
-						</div>
-						<div>
-							<img className="rounded-lg" src={WhatWeDo.img2} alt="" />
-							<img className="rounded-lg mt-2" src={WhatWeDo.img3} alt="" />
+					<div className="hero">
+						<div className="hero-content ">
+							<div className="mr-2 order-1">
+								<img className="rounded-lg" src={WhatWeDo.img1} alt="" />
+							</div>
+							<div className="order-2">
+								<img className="rounded-lg" src={WhatWeDo.img2} alt="" />
+								<img className="rounded-lg mt-2" src={WhatWeDo.img3} alt="" />
+							</div>
 						</div>
 					</div>
-					<div className="w-[1000px]">
+					<div className="lg:w-[1000px]">
 						<div className="card card-side bg-base-100 shadow-xl mt-2 bg-[#1E1B24]">
 							<div className="p-2">
 								<figure>

@@ -20,7 +20,7 @@ const Banner = () => {
 							<button className="btn bg-white text-black mr-2 rounded-full hover:text-[#000]">
 								{Banner_item.button1}
 							</button>
-							<button className="btn bg-white text-black rounded-full mt-2">
+							<button className="btn bg-white text-black rounded-full">
 								{Banner_item.button2}
 							</button>
 						</div>
