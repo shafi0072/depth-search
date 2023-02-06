@@ -9,7 +9,6 @@ const Index = (props) => {
 			<Social />
 			<Contact />
 			<Navbar />
-			<Banner />
 			{props.children}
 		</>
 	);

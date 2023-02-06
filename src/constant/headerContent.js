@@ -1,20 +1,20 @@
 export const header_content = {
 	serviceProvide: {
-		title: 'We Will Provide You',
+		title: 'Welcome to Depth Search',
 	},
 	serviceHeading: {
-		title: 'IT Solution',
+		title: 'Transform Your Business with Full Stack Web Development',
 	},
 	button: {
 		title: 'GET START',
 	},
 	describe: {
 		title:
-			' Are you looking for a web developer or an agency? so you are in the right place. ' +
+			' Unlock the full potential of your business with Depth Search, ' +
 			' ' +
-			'we will provide you the best services with the affordable price point with unlimited revision.' +
+			' the premier full stack web development agency ' +
 			' ' +
-			'For example, you have a business for clothes selling, so you want to sell your products online because as we all know that the world is now inside of the internet. So 99.9% population of this world now using ecommerce platforms for find there dreamy products.' +
+			' Our team of experts will build custom, cutting-edge web applications that drive growth and enhance your online presence.' +
 			' ' +
 			'We will insure you the best service!',
 	},

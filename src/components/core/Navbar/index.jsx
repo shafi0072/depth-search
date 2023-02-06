@@ -13,13 +13,13 @@ const Index = () => {
 		console.log(searchBox);
 	};
 	return (
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<div class="container">
+		<nav className="navbar navbar-expand-lg navbar-light bg-light">
+			<div className="container">
 				<span className="navbar-brand text-dark p-2 menu-icon" href="#">
 					<AppsIcon />
 				</span>
 				<button
-					class="navbar-toggler"
+					className="navbar-toggler"
 					type="button"
 					data-bs-toggle="collapse"
 					data-bs-target="#navbarTogglerDemo01"
@@ -27,10 +27,10 @@ const Index = () => {
 					aria-expanded="false"
 					aria-label="Toggle navigation"
 				>
-					<span class="navbar-toggler-icon"></span>
+					<span className="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+					<ul className="navbar-nav me-auto mb-2 mb-lg-0">
 						{navigator_menu_items?.map((data) => (
 							<li
 								key={data?.name}

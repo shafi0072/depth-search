@@ -14,8 +14,9 @@ const Index = () => {
 	const handleOpen = () => setOpen(true);
 	const handleClose = () => setOpen(false);
 	return (
-		<div className="container header_content">
-			<div className="row header">
+	<div className='header'>
+			<div className="container header_content ">
+			<div className="row ">
 				<div className="col-md-6 pt-5">
 					<div className="mt-5">
 						<p className="introduce">{serviceProvide?.title}</p>
@@ -40,6 +41,7 @@ const Index = () => {
 				<div className="col-md-6"></div>
 			</div>
 		</div>
+	</div>
 	);
 };
 

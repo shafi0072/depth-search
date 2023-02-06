@@ -65,23 +65,21 @@ const Index = () => {
 										key={contractInfo?.contractInfo?.label}
 										className="nav-item"
 									>
-										<a
+										<Link
 											className="nav-link active d-flex align-items-center"
 											aria-current="page"
-											href="#"
-										>
-											<div className="contract_icon">{contractInfo?.icon}</div>
-											<div className="ms-1 contractInfoLabel">
-												<span>{contractInfo?.label}</span>
-												<Link
-													href={
+											href={
 														contractInfo?.contact_number
 															? `tel:${contractInfo?.contact_number}`
 															: contractInfo?.contact_whatsapp
 															? `whatsapp://send?text=Hello Depth Search!&phone=${contractInfo?.contact_whatsapp}`
 															: `mailto:${contractInfo?.contact_mail}`
 													}
-												>
+										>
+											<div className="contract_icon">{contractInfo?.icon}</div>
+											<div className="ms-1 contractInfoLabel">
+												<span>{contractInfo?.label}</span>
+												
 													<span className="contract_information">
 														{' '}
 														{contractInfo?.contact_number
@@ -90,9 +88,9 @@ const Index = () => {
 															? contractInfo?.contact_whatsapp
 															: contractInfo?.contact_mail}
 													</span>
-												</Link>
+												
 											</div>
-										</a>
+										</Link>
 									</li>
 								))}
 							{menuChange &&
