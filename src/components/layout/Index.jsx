@@ -1,14 +1,18 @@
 import React from 'react';
-import Social from '../core/Social'
-import Contact from '../core/ContactBar'
+import Social from '../core/Social';
+import Contact from '../core/ContactBar';
+import Navbar from '../core/Navbar';
+import Banner from '../core/Banner';
 const Index = (props) => {
-  return (
-    <>
-      <Social/>
-      <Contact/>
-      {props.children}
-    </>
-  );
+	return (
+		<>
+			<Social />
+			<Contact />
+			<Navbar />
+			<Banner />
+			{props.children}
+		</>
+	);
 };
 
 export default Index;
