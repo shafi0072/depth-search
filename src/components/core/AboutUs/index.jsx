@@ -28,20 +28,21 @@ const AboutUs = () => {
 
   useEffect(() => {
     if (scrollPosition >= 80) {
-      setInterval(function () {
-        if (increase < about_left_side?.experience) {
-          setIncrease(increase++);
-        }
-      }, 200);
+    
+			for(let i =0; i <= about_left_side?.experience; i++){
+          setIncrease(about_left_side?.experience);
+        
+			}
+     
     }
-		else if(scrollPosition < 80){
-			setInterval(function () {
-        if (increase < about_left_side?.experience) {
-          setIncrease(0);
-        }
-      }, 2000);
-		}
-  }, [scrollPosition]);
+		// else if(scrollPosition < 70){
+		// 	setInterval(function () {
+    //     if (increase < about_left_side?.experience) {
+    //       setIncrease(0);
+    //     }
+    //   }, 2000);
+		// }
+  }, [scrollPosition, increase]);
 
   return (
     <div className="container about_us">
@@ -58,10 +59,10 @@ const AboutUs = () => {
         </div>
         <div className="col-md-6">
           <div className="about_our_self">
-            <h6>{sub_title}</h6>
+            <h6 >{sub_title}</h6>
             <h1>{title}</h1>
-            <p>{discription}</p>
-            <div className="short_service">
+            <p style={{margin: '30px 0'}}>{discription}</p>
+            <div className="short_service" style={{margin: '0'}}>
               <h5>{benifit}</h5>
               <div className="d-flex align-items-center mt-4">
                 <LocationOnIcon />
