@@ -3,10 +3,10 @@ import { about_feedback } from '../../../constant/aboutFeedback';
 
 const Index = () => {
 	const [scrollPosition, setScrollPosition] = useState(0);
-	const [experience, setExperience] = useState(1);
-	const [clients, setClients] = useState(1);
-	const [captured, setCaptured] = useState(1);
-	const [masterclass, setMasterClass] = useState(1);
+	let [experience, setExperience] = useState(1);
+	let [clients, setClients] = useState(1);
+	let [captured, setCaptured] = useState(1);
+	let [masterclass, setMasterClass] = useState(1);
 
 	const handleScroll = useCallback(() => {
 		const position = window.pageYOffset;
