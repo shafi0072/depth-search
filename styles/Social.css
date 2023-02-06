@@ -76,7 +76,7 @@
 }
 
 .head_line {
-	font-size: 120px;
+	font-size: 50px!important;
 	font-weight: 900;
 	font-family: 'Oswald', sans-serif;
 	color: #1f242c;
@@ -430,7 +430,7 @@
 }
 @media only screen and (max-width: 1920px) {
 	.head_line {
-		font-size: 70px;
+		font-size: 50px;
 		font-weight: 800;
 		font-family: 'Oswald', sans-serif;
 		color: #1f242c;
@@ -492,7 +492,7 @@
 }
 @media only screen and (max-width: 1199px) {
 	.head_line {
-		font-size: 70px;
+		font-size: 50px;
 		font-weight: 800;
 		font-family: 'Oswald', sans-serif;
 		color: #1f242c;
@@ -545,7 +545,7 @@
 		margin-right: 90px;
 	}
 	.head_line {
-		font-size: 50px;
+		font-size: 30px;
 		font-weight: 800;
 		font-family: 'Oswald', sans-serif;
 		color: #1f242c;
