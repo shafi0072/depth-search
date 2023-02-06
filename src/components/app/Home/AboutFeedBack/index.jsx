@@ -1,9 +1,10 @@
 import React from 'react';
+import AboutFeedBack from '../../../core/AboutFeedBack';
 
 const Index = () => {
 	return (
-		<div className="container">
-			<h1>hnngjhs</h1>
+		<div>
+			<AboutFeedBack />
 		</div>
 	);
 };
