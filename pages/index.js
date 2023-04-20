@@ -1,4 +1,4 @@
-import HomeComponents from '../src/components/app/Home/'
+import HomeComponents from '../src/components/app/Home'
 
 
 export default function Home() {
