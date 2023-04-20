@@ -1,3 +1,4 @@
+import React from 'react'
 import HomeComponents from '../src/components/app/Home'
 
 
