@@ -1,0 +1,586 @@
+.contract_navbar {
+  background-color: #f6f6f6 !important;
+}
+.navbarMain {
+  width: 100%;
+  position: sticky !important;
+  top: 0;
+  z-index: 1;
+}
+.logo_icon {
+  color: #05d0f4;
+}
+.logo_branding h2 {
+  font-size: 35px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+.contract_icon {
+  color: #3fb6f8;
+}
+.contractInfoLabel {
+  display: grid;
+}
+.contractInfoLabel span {
+  font-weight: 700;
+  color: #aaa;
+}
+.contractInfoLabel a {
+  font-weight: 700;
+}
+.contractInfoLabel span:nth-child(2) {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  color: #1e232a;
+}
+.header {
+  width: 100%;
+  height: 950px;
+  background-image: url(https://eurtech-react.vercel.app/assets/img/hero/slider/hero-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.search {
+  background-image: -webkit-linear-gradient(0deg, #0bdafd, #6a48af);
+  width: 20%;
+  border-radius: 5px;
+}
+.search_input input {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+.search_input input::placeholder {
+  opacity: 1;
+  color: white;
+}
+.search_icon {
+  color: white;
+}
+.search_div_border {
+  border-bottom: 1px solid white;
+}
+.menu_search {
+  background-image: linear-gradient(0deg, #0bdafd, #6a48af);
+  color: white;
+}
+
+.head_line {
+  font-size: 120px;
+  font-weight: 900;
+  font-family: "Oswald", sans-serif;
+  color: #1f242c;
+}
+.navigator_color {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.menu-icon {
+  background-color: #ebebeb;
+}
+.menu_items {
+  font-weight: 700;
+  color: black;
+}
+.menu_items li span {
+  font-weight: 700;
+  color: black;
+}
+
+.nav-toggle {
+  font-weight: 700 !important;
+  color: black !important;
+}
+
+.introduce {
+  font-size: 20px;
+  font-family: Poppins;
+  margin-bottom: 6px;
+  display: block;
+  color: #827c68;
+}
+
+.GET_START_BUTTON {
+  font-size: 16px;
+  font-weight: 900;
+  height: 60px;
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+  border: none;
+  text-transform: uppercase;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-position: 100% 100%;
+  background-size: 300% 100%;
+  background-image: linear-gradient(90deg, #684cb1, #0ed5fa, #0ed5fa, #684cb1);
+  color: white;
+  transition: 1s;
+}
+
+.GET_START_BUTTON:hover {
+  font-size: 16px;
+  font-weight: 900;
+  height: 60px;
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+  border: none;
+  text-transform: uppercase;
+
+  background-position: 100% 100%;
+  background-size: 300% 100%;
+  background-image: linear-gradient(200deg, #684cb1, #0ed5fa, #0ed5fa, #684cb1);
+  color: white;
+}
+
+.videoButton {
+  background-color: red;
+  width: 70px;
+  height: 60px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.videoButton:hover {
+  background-color: #3fb6f8;
+}
+.header_content {
+  position: relative;
+  top: 50px;
+  padding-bottom: 50px;
+}
+.describe {
+  margin-top: 10px;
+  margin-bottom: 45px;
+  font-size: 18px;
+  opacity: 70%;
+}
+
+.about_us {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.experience {
+  width: 30%;
+  height: 148px;
+  text-align: center;
+  background-color: #1f242c;
+  color: white;
+  padding-top: 25px;
+  border-radius: 10px;
+  position: relative;
+  top: 80px;
+
+  right: 0;
+}
+.modalContents {
+  position: relative;
+  top: 250px;
+}
+.modalContent {
+  width: 800px;
+}
+.modalBox {
+  background-color: black;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.about_us {
+  margin-top: 100px;
+}
+.experience {
+  width: 30%;
+  height: 148px;
+  text-align: center;
+  background-color: #1f242c;
+  color: white;
+  padding-top: 25px;
+  border-radius: 10px;
+  position: relative;
+  top: 80px;
+
+  right: 0;
+}
+.experience h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+}
+.experience p {
+  font-family: "Oswald", sans-serif;
+  color: #5f6165;
+  opacity: 10;
+}
+.about_our_self {
+  position: relative;
+  top: 80px;
+  margin-left: 70px;
+}
+
+.about_our_self h6 {
+  font-family: "Oswald", sans-serif;
+  color: #3fb6f8;
+  opacity: 10;
+}
+.about_our_self h1 {
+  font-family: "Oswald", sans-serif;
+  color: #1f242c;
+  font-size: 50px;
+  font-weight: 900;
+  opacity: 10;
+  margin-top: 30px;
+}
+.about_our_self p {
+  font-family: poppins, sans-serif;
+  color: #5f6165;
+  opacity: 10;
+  margin-top: 60px;
+}
+
+.ourServices {
+  padding-top: 70px;
+}
+
+.ourServices h6 {
+  font-family: "Oswald", sans-serif;
+  color: #3fb6f8;
+  opacity: 10;
+}
+.ourServices h1 {
+  font-family: "Oswald", sans-serif;
+  color: #1f242c;
+  font-size: 50px;
+  font-weight: 900;
+  opacity: 10;
+  margin-top: 30px;
+}
+.ourServices p {
+  font-family: poppins, sans-serif;
+  color: #5f6165;
+  opacity: 10;
+  margin-top: 60px;
+}
+.short_service {
+  border-left: 4px solid #3fb6f8;
+  padding-left: 10px;
+  margin-top: 90px;
+}
+.short_service h5 {
+  font-family: "Oswald", sans-serif;
+}
+.modalContents {
+  position: relative;
+  top: 250px;
+}
+.modalContent {
+  width: 800px;
+}
+.modalBox {
+  background-color: black;
+  padding: 50px;
+  border-radius: 10px;
+}
+.button_arrow {
+  background-color: #3fb6f8;
+
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: all 0.3s ease-out 0s;
+  margin-left: 10px;
+}
+.button_learn_more {
+  border: 1px solid lightgray;
+  margin-top: 50px;
+
+  height: 100%;
+  font-family: poppins, sans-serif;
+  font-weight: 900;
+
+  padding-left: 15px;
+  transition: 0.7s;
+}
+
+.button_learn_more:hover {
+  font-size: 16px;
+  font-weight: 900;
+  height: 100%;
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+
+  text-transform: uppercase;
+  border: 1px solid white;
+  background-position: 100% 100%;
+  background-size: 300% 100%;
+  background-image: linear-gradient(90deg, #684cb1, #0ed5fa, #0ed5fa, #684cb1);
+  color: white;
+}
+.button_learn_more:hover .button_arrow {
+  background-color: white;
+  color: #1f242c;
+}
+.about_feedback {
+  background-image: linear-gradient(
+      90deg,
+      #694cb1b1,
+      #0ed7fab1,
+      #0ed7fab1,
+      #694cb1b1
+    ),
+    url("https://www.cgi.com/sites/default/files/2022-voc-digital-leaders-medium.jpg");
+  background-position: 100% 100%;
+  background-size: 300% 200%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 100px;
+  border-radius: 20px;
+
+  position: relative;
+  top: 130px;
+}
+.about_feedback h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
+}
+.about_feedback p {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+.services {
+  background-color: #1f242c;
+  height: 100%;
+  width: 100%;
+}
+.service_card h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  color: white;
+}
+.service_card p {
+  font-family: poppins, sans-serif;
+  font-size: 15px;
+  color: #888d99;
+  margin-top: 30px;
+}
+.service_card {
+  background-color: rgb(38, 44, 53);
+  width: 100%;
+  padding: 30px;
+}
+.read_more {
+  border: 1px solid lightgray;
+  margin-top: 50px;
+  font-family: poppins, sans-serif;
+  font-weight: 800;
+  padding-left: 15px;
+  transition: 0.7s;
+  color: #888d99;
+  border: none;
+}
+.read_more:hover {
+  font-size: 16px;
+  font-weight: 900;
+  height: 100%;
+
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+  border: none;
+  text-transform: uppercase;
+
+  background-position: 100% 100%;
+  background-size: 300% 100%;
+  background-image: linear-gradient(90deg, #684cb1, #0ed5fa, #0ed5fa, #684cb1);
+  color: white;
+}
+.card-img {
+  height: 200px;
+  width: 100%;
+}
+.card-img img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.footer{
+  background-color: rgb(38, 44, 53);
+  padding-top: 50px;
+}
+@media only screen and (max-width: 1920px) {
+  .head_line {
+    font-size: 70px;
+    font-weight: 800;
+    font-family: "Oswald", sans-serif;
+    color: #1f242c;
+  }
+  .contractInfoLabel span:nth-child(2) {
+    font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    color: #1e232a;
+  }
+  .css-a7ab3v {
+    width: 713px !important;
+    height: 450px !important;
+  }
+}
+.facts {
+  background-image: url(https://eurtech-react.vercel.app/assets/img/bg/skill-map.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 80vh;
+}
+.fact {
+  position: relative;
+  top: 80px;
+}
+.fact h6 {
+  font-family: "Oswald", sans-serif;
+  color: #3fb6f8;
+  opacity: 10;
+}
+.fact h1 {
+  font-family: "Oswald", sans-serif;
+  color: #1f242c;
+  font-size: 50px;
+  font-weight: 900;
+  opacity: 10;
+  margin-top: 30px;
+}
+.fact p {
+  font-family: poppins, sans-serif;
+  color: #5f6165;
+  opacity: 10;
+  margin-top: 60px;
+}
+.content_progressBar {
+  font-family: "Oswald", sans-serif;
+}
+.team {
+  background-color: #262c35;
+}
+.team h1 {
+  color: white;
+}
+.teamImage {
+  -webkit-filter: grayscale(100%);
+}
+.teamImage:hover {
+}
+@media only screen and (max-width: 1199px) {
+  .head_line {
+    font-size: 70px;
+    font-weight: 800;
+    font-family: "Oswald", sans-serif;
+    color: #1f242c;
+  }
+  .contractInfoLabel span:nth-child(2) {
+    font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    color: #1e232a;
+  }
+  .css-a7ab3v {
+    width: 500px !important;
+    height: 330px !important;
+  }
+}
+
+@media only screen and (max-width: 456px) {
+  .logo_branding h2 {
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+  }
+  .header {
+    width: 100%;
+    height: 600px;
+    background-image: url(https://eurtech-react.vercel.app/assets/img/hero/slider/hero-bg.jpg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .search {
+    background-image: -webkit-linear-gradient(0deg, #0bdafd, #6a48af);
+    width: 100%;
+  }
+  .search_input input {
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
+  .search_icon {
+    color: white;
+  }
+  .search_div_border {
+    border-bottom: 1px solid white;
+  }
+  .menu_search {
+    text-align: center;
+    width: 20%;
+    background-image: linear-gradient(0deg, #0bdafd, #6a48af);
+    color: white;
+    margin-right: 90px;
+  }
+  .head_line {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Oswald", sans-serif;
+    color: #1f242c;
+  }
+  .videoButton {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .videoButton:hover {
+    background-color: #3fb6f8;
+  }
+  .GET_START_BUTTON {
+    font-size: 16px;
+    font-weight: 900;
+    height: 50px;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-position: 100% 100%;
+    background-size: 300% 100%;
+    background-image: linear-gradient(
+      90deg,
+      #684cb1,
+      #0ed5fa,
+      #0ed5fa,
+      #684cb1
+    );
+    color: white;
+  }
+  .css-a7ab3v {
+    width: 413px !important;
+    height: 310px !important;
+  }
+}
