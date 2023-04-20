@@ -3,18 +3,16 @@ export const header_content = {
     title: "We Will Provide You",
   },
   serviceHeading: {
-    title: "IT Solution",
+    title: <span>Experience the Next Level of Web and Mobile Development with <br /> <span style={{color:'#0088FE'}}>Depth-Searchl</span></span>,
   },
   button: {
     title: "GET START",
   },
   describe: {
     title:
-      " Are you looking for a web developer or an agency? so you are in the right place. " +
+      " Our team of expert developers specializes in creating high-quality and intuitive applications that are designed to meet the unique needs of each of our clients. " +
       " " +
-      "we will provide you the best services with the affordable price point with unlimited revision." +
-      " " +
-      "For example, you have a business for clothes selling, so you want to sell your products online because as we all know that the world is now inside of the internet. So 99.9% population of this world now using ecommerce platforms for find there dreamy products." +
+      "With a focus on delivering exceptional customer service, we work closely with our clients to understand their specific goals and objectives, and develop customized solutions that exceed their expectations." +
       " " +
       "We will insure you the best service!",
   },

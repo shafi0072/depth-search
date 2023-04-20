@@ -10,26 +10,9 @@ const Navigator = ({searchBox, setSearchBox}) => {
 
   const [scrollPosition, setScrollPosition] = useState(0);
   const [menuChange, setMenuChange] = useState(false);
-  const handleScroll = useCallback(() => {
-    const position = window.pageYOffset;
-    setScrollPosition(position);
-  }, [setScrollPosition]);
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [handleScroll]);
-
-  useEffect(() => {
-    if (scrollPosition > 90) {
-      setMenuChange(true);
-    } else {
-      setMenuChange(false);
-    }
-  }, [scrollPosition, setMenuChange]);
+  
 
   const handleSearchBox = () => {
     setSearchBox(!searchBox);
@@ -39,7 +22,7 @@ const Navigator = ({searchBox, setSearchBox}) => {
     <AosConfig>
       <nav
         className="navbar navbar-expand-lg container navigator_color"
-        data-aos={!menuChange ? "fade-down" : menuChange ? "fade-up" : ""}
+        
       >
         <div className="container-fluid">
           <span className="navbar-brand text-dark p-2 menu-icon" href="#">

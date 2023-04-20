@@ -12,9 +12,10 @@ import Contract from './Contract';
 import Footer from './Footer';
 
 
-const Index = () => {
+const index = () => {
   return (
     <>
+    
       <Social/>
       <Navbar/>
       <Header/>
@@ -30,4 +31,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default index;

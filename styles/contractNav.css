@@ -16,7 +16,7 @@
   text-transform: uppercase;
 }
 .contract_icon {
-  color: #3fb6f8;
+  color: #0088FE;
 }
 .contractInfoLabel {
   display: grid;
@@ -67,7 +67,7 @@
 }
 
 .head_line {
-  font-size: 120px;
+  font-size: 40px;
   font-weight: 900;
   font-family: "Oswald", sans-serif;
   color: #1f242c;
@@ -150,7 +150,7 @@
   transition: 0.5s;
 }
 .videoButton:hover {
-  background-color: #3fb6f8;
+  background-color: #0088FE;
 }
 .header_content {
   position: relative;
@@ -227,7 +227,7 @@
 
 .about_our_self h6 {
   font-family: "Oswald", sans-serif;
-  color: #3fb6f8;
+  color: #0088FE;
   opacity: 10;
 }
 .about_our_self h1 {
@@ -251,7 +251,7 @@
 
 .ourServices h6 {
   font-family: "Oswald", sans-serif;
-  color: #3fb6f8;
+  color: #0088FE;
   opacity: 10;
 }
 .ourServices h1 {
@@ -269,7 +269,7 @@
   margin-top: 60px;
 }
 .short_service {
-  border-left: 4px solid #3fb6f8;
+  border-left: 4px solid #0088FE;
   padding-left: 10px;
   margin-top: 90px;
 }
@@ -289,7 +289,7 @@
   border-radius: 10px;
 }
 .button_arrow {
-  background-color: #3fb6f8;
+  background-color: #0088FE;
 
   width: 40px;
   height: 40px;
@@ -421,7 +421,7 @@
 }
 @media only screen and (max-width: 1920px) {
   .head_line {
-    font-size: 70px;
+    font-size: 40px;
     font-weight: 800;
     font-family: "Oswald", sans-serif;
     color: #1f242c;
@@ -450,7 +450,7 @@
 }
 .fact h6 {
   font-family: "Oswald", sans-serif;
-  color: #3fb6f8;
+  color: #0088FE;
   opacity: 10;
 }
 .fact h1 {
@@ -483,7 +483,7 @@
 }
 @media only screen and (max-width: 1199px) {
   .head_line {
-    font-size: 70px;
+    font-size: 40px;
     font-weight: 800;
     font-family: "Oswald", sans-serif;
     color: #1f242c;
@@ -536,7 +536,7 @@
     margin-right: 90px;
   }
   .head_line {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 800;
     font-family: "Oswald", sans-serif;
     color: #1f242c;
@@ -555,7 +555,7 @@
     transition: 0.5s;
   }
   .videoButton:hover {
-    background-color: #3fb6f8;
+    background-color: #0088FE;
   }
   .GET_START_BUTTON {
     font-size: 16px;

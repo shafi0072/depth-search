@@ -17,7 +17,7 @@ const HeaderContent = () => {
         <div className="col-md-6 pt-5">
           <div className="mt-5">
             <p className="introduce">{serviceProvide?.title}</p>
-            <h1 className="head_line">{serviceHeading?.title}</h1>
+            <h4 className="head_line">{serviceHeading?.title}</h4>
             <p className="describe">{describe?.title}</p>
           </div>
           <div className="d-flex">

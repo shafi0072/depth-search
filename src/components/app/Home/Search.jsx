@@ -1,6 +1,6 @@
 import React from 'react';
 import SearchIcon from "@mui/icons-material/Search";
-const Index = ({searchBox}) => {
+const Search = ({searchBox}) => {
   return (
     <div className='container d-flex justify-content-end mt-3'>
       {searchBox && <div className='search p-3'>
@@ -17,4 +17,4 @@ const Index = ({searchBox}) => {
   );
 };
 
-export default Index;
+export default Search;
