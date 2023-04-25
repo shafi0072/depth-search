@@ -3,7 +3,7 @@ export const header_content = {
     title: "We Will Provide You",
   },
   serviceHeading: {
-    title: <span>Experience the Next Level of Web and Mobile Development with <br /> <span style={{color:'#0088FE'}}>Depth-Searchl</span></span>,
+    title: <span>Experience the Next Level of Web and Mobile Development with <br /> <span style={{color:'#0088FE'}}>Depth-Search</span></span>,
   },
   button: {
     title: "GET START",

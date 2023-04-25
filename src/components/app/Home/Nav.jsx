@@ -17,17 +17,15 @@ const Nav = () => {
 
   
   return (
-    <AosConfig>
+
       <nav className="navbar navbar-expand-lg bg-light navbarMain">
         <div className="container-fluid container">
           <span
             className="navbar-brand d-flex justify-content-center align-items-center"
-            href="#"
+           
           >
-            <div className="logo_icon">{icon}</div>
-            <div className="ms-2 logo_branding">
-              <h2>{name}</h2>
-            </div>
+            <div className="logo_icon"><img src="/images/logo.png" className="w-80" alt="" /></div>
+           
           </span>
           <button
             className="navbar-toggler"
@@ -40,10 +38,10 @@ const Nav = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNav1">
+          <div className="" id="navbarNav1">
             <ul className="navbar-nav ms-auto">
               {
-                contract_navbar_contractInfo.map((contractInfo) => (
+                contract_navbar_contractInfo?.map((contractInfo) => (
                   <li
                     
                     key={contractInfo?.contractInfo?.label}
@@ -81,10 +79,11 @@ const Nav = () => {
                 ))}
              
             </ul>
+            
           </div>
         </div>
       </nav>
-    </AosConfig>
+
   );
 };
 

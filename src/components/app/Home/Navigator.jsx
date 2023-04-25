@@ -7,13 +7,6 @@ import AosConfig from "../../../config/AosConfig";
 
 const Navigator = ({searchBox, setSearchBox}) => {
   const router = useRouter();
-
-  const [scrollPosition, setScrollPosition] = useState(0);
-  const [menuChange, setMenuChange] = useState(false);
-
-
-  
-
   const handleSearchBox = () => {
     setSearchBox(!searchBox);
     console.log(searchBox)

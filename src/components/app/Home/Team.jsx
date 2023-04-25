@@ -10,7 +10,7 @@ const Team = () => {
       </h2>
 
       <div className="grid gap-x-6 lg:gap-x-12 md:grid-cols-3">
-        {team_members?.map((data, index) => (
+        {team_members.map((data, index) => (
           <div key={index} className="mb-24 md:mb-0 mt-24">
             <div className="rounded-lg shadow-lg h-full block bg-white">
               <div className="flex justify-center">

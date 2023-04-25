@@ -16,7 +16,8 @@
   text-transform: uppercase;
 }
 .contract_icon {
-  color: #0088FE;
+  color: #dfdfdf;
+  
 }
 .contractInfoLabel {
   display: grid;
@@ -24,6 +25,11 @@
 .contractInfoLabel span {
   font-weight: 700;
   color: #aaa;
+}
+.textColor{
+  color: rgb(231, 226, 226)!important;
+  font-family: "Oswald", sans-serif;
+  font-weight: 200!important;
 }
 .contractInfoLabel a {
   font-weight: 700;
