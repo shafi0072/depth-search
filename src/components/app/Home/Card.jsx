@@ -3,16 +3,16 @@ import { Button } from "./Button";
 
 const Card = ({ title, icon, link, discription }) => {
   return (
-    <div class="card service_card">
+    <div className="card service_card">
       <div className="card-img">
-        <img src={icon} class="card-img-top" alt="..." />
+        <img src={icon} className="card-img-top" alt="..." />
       </div>
-      <div class="card-body">
-        <h1 class="card-title">{title}</h1>
-        <p class="card-text">{discription}</p>
+      <div className="card-body">
+        <h1 className="card-title">{title}</h1>
+        <p className="card-text">{discription}</p>
         {/* fdsaf */}
       </div>
-      <div class="">
+      <div className="">
         <Button title="READ MORE" color="white" />
       </div>
     </div>

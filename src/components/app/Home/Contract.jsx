@@ -3,8 +3,8 @@ import React, { useState } from "react";
 const Contract = () => {
   return (
     <div>
-      <h2 class="text-3xl text-center mt-5 font-bold mb-32">
-        <u class="text-blue-600">Contact</u> With Us
+      <h2 className="text-3xl text-center mt-5 font-bold mb-32">
+        <u className="text-blue-600">Contact</u> With Us
       </h2>
       <section className="bg-white dark:bg-gray-900">
         <div className="container px-6 py-12 mx-auto">

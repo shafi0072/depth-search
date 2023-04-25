@@ -39,8 +39,8 @@ const Review = () => {
   return (
     <div className="services p-5">
       <div className="container">
-        <h2 class="text-3xl font-bold mb-32 text-center text-light">
-          Clients <u class="text-blue-600">Feedback</u>
+        <h2 className="text-3xl font-bold mb-32 text-center text-light">
+          Clients <u className="text-blue-600">Feedback</u>
         </h2>
         <Slider {...settings}>
         {review_data?.map((data, index) =>  <div className="me-5" key={index}>

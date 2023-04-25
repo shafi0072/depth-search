@@ -2,16 +2,16 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer class="footer">
-    <div class="container p-6 mx-auto">
-        <div class="lg:flex">
-            <div class="w-full -mx-6 lg:w-2/5">
-                <div class="px-6">
+    <footer className="footer">
+    <div className="container p-6 mx-auto">
+        <div className="lg:flex">
+            <div className="w-full -mx-6 lg:w-2/5">
+                <div className="px-6">
                     <div>
-                        <a href="#" class="text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">Depth Search IT, LTD</a>
+                        <a href="#" className="text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">Depth Search IT, LTD</a>
                     </div>
 
-                    <p class="max-w-sm mt-2 text-gray-500 dark:text-gray-400">Be hurry for get the best service. we are wating for connect with you</p>
+                    <p className="max-w-sm mt-2 text-gray-500 dark:text-gray-400">Be hurry for get the best service. we are wating for connect with you</p>
 
                     <div className="flex mt-4 -mx-1.5 ">
                   <a
@@ -92,42 +92,42 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div class="mt-6 lg:mt-0 lg:flex-1">
-                <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <div className="mt-6 lg:mt-0 lg:flex-1">
+                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                     <div>
-                        <h3 class="text-gray-700 uppercase dark:text-white">About</h3>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Company</a>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">community</a>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Careers</a>
+                        <h3 className="text-gray-700 uppercase dark:text-white">About</h3>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Company</a>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">community</a>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Careers</a>
                     </div>
 
                     <div>
-                        <h3 class="text-gray-700 uppercase dark:text-white">Blog</h3>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Tec</a>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Music</a>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Videos</a>
+                        <h3 className="text-gray-700 uppercase dark:text-white">Blog</h3>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Tec</a>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Music</a>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Videos</a>
                     </div>
 
                     <div>
-                        <h3 class="text-gray-700 uppercase dark:text-white">Products</h3>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Mega cloud</a>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Aperion UI</a>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Meraki UI</a>
+                        <h3 className="text-gray-700 uppercase dark:text-white">Products</h3>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Mega cloud</a>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Aperion UI</a>
+                        <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Meraki UI</a>
                     </div>
 
                     <div>
-                        <h3 class="text-gray-700 uppercase dark:text-white">Contact</h3>
-                        <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">+8801763740664</span>
-                        <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">deapth.search.it@gmail.com</span>
+                        <h3 className="text-gray-700 uppercase dark:text-white">Contact</h3>
+                        <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">+8801763740664</span>
+                        <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">deapth.search.it@gmail.com</span>
                     </div>
                 </div>
             </div>
         </div>
 
-        <hr class="h-px my-6 bg-gray-200 border-none dark:bg-gray-700"/>
+        <hr className="h-px my-6 bg-gray-200 border-none dark:bg-gray-700"/>
 
         <div>
-            <p class="text-center text-gray-500 dark:text-gray-400">© depth Search IT, LTD 2023 - All rights reserved</p>
+            <p className="text-center text-gray-500 dark:text-gray-400">© depth Search IT, LTD 2023 - All rights reserved</p>
         </div>
     </div>
 </footer>

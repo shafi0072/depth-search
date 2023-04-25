@@ -4,37 +4,37 @@ import { team_members } from "../../../constant/team";
 const Team = () => {
   const lazyRoot = React.useRef(null);
   return (
-    <section class="mb-32 text-gray-800 text-center container mt-5">
-      <h2 class="text-3xl font-bold mb-32">
-        Meet the <u class="text-blue-600">team</u>
+    <section className="mb-32 text-gray-800 text-center container mt-5">
+      <h2 className="text-3xl font-bold mb-32">
+        Meet the <u className="text-blue-600">team</u>
       </h2>
 
-      <div class="grid gap-x-6 lg:gap-x-12 md:grid-cols-3">
+      <div className="grid gap-x-6 lg:gap-x-12 md:grid-cols-3">
         {team_members?.map((data, index) => (
-          <div key={index} class="mb-24 md:mb-0 mt-24">
-            <div class="rounded-lg shadow-lg h-full block bg-white">
-              <div class="flex justify-center">
+          <div key={index} className="mb-24 md:mb-0 mt-24">
+            <div className="rounded-lg shadow-lg h-full block bg-white">
+              <div className="flex justify-center">
                 <div
-                  class="flex justify-center teamImage"
+                  className="flex justify-center teamImage"
                   style={{ marginTop: "-75px" }}
                 >
                   <img
                     src={data?.image}
-                    class="rounded-full mx-auto shadow-lg"
+                    className="rounded-full mx-auto shadow-lg"
                     alt=""
                     style={{ width: "150px" }}
                   />
                 </div>
               </div>
-              <div class="p-6">
-                <h5 class="text-lg font-bold mb-4">{data?.name}</h5>
-                <p class="mb-6">{data?.position}</p>
-                <ul class="list-inside flex mx-auto justify-center">
-                  <a href={data?.github} rel="noreferrer" target="_blank" class="px-2">
+              <div className="p-6">
+                <h5 className="text-lg font-bold mb-4">{data?.name}</h5>
+                <p className="mb-6">{data?.position}</p>
+                <ul className="list-inside flex mx-auto justify-center">
+                  <a href={data?.github} rel="noreferrer" target="_blank" className="px-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 496 512"
-                      class="w-4 h-4 text-blue-600"
+                      className="w-4 h-4 text-blue-600"
                     >
                       <path
                         fill="currentColor"
@@ -42,11 +42,11 @@ const Team = () => {
                       />
                     </svg>
                   </a>
-                  <a href={data?.twitter} rel="noreferrer" target="_blank" class="px-2">
+                  <a href={data?.twitter} rel="noreferrer" target="_blank" className="px-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 512 512"
-                      class="w-4 h-4 text-blue-600"
+                      className="w-4 h-4 text-blue-600"
                     >
                       <path
                         fill="currentColor"
@@ -54,11 +54,11 @@ const Team = () => {
                       />
                     </svg>
                   </a>
-                  <a href={data?.linkedIn} rel="noreferrer" target="_blank" class="px-2">
+                  <a href={data?.linkedIn} rel="noreferrer" target="_blank" className="px-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 448 512"
-                      class="w-4 h-4 text-blue-600"
+                      className="w-4 h-4 text-blue-600"
                     >
                       <path
                         fill="currentColor"
