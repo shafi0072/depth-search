@@ -38,45 +38,43 @@ const Nav = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="" id="navbarNav1">
+          <div className="navbar-nav ms-5 menu_items cursor-pointer" id="navbarNav1">
             <ul className="navbar-nav ms-auto">
-              {
-                contract_navbar_contractInfo?.map((contractInfo) => (
-                  <li
-                    
-                    key={contractInfo?.contractInfo?.label}
-                    className="nav-item"
+            {navigator_menu_items.map((data) => (
+                <li
+                  key={data?.name}
+                  className={
+                    data?.dropDown
+                      ? "nav-item dropdown ms-3"
+                      : "nav-item ms-3"
+                  }
+                >
+                  <span
+                    className={
+                      data?.dropDown ? "nav-link dropdown-toggle" : "nav-link"
+                    }
+                    onClick={() => router.push(data?.link)}
+                    role={data?.dropDown ? "button" : ""}
+                    data-bs-toggle={data?.dropDown ? "dropdown" : ""}
+                    aria-expanded="false"
                   >
-                    <a
-                      className="nav-link active d-flex align-items-center"
-                      aria-current="page"
-                      href="#"
-                    >
-                      <div className="contract_icon">{contractInfo?.icon}</div>
-                      <div className="ms-1 contractInfoLabel">
-                        <span>{contractInfo?.label}</span>
-                        <Link
-                          href={
-                            contractInfo?.contact_number
-                              ? `tel:${contractInfo?.contact_number}`
-                              : contractInfo?.contact_whatsapp
-                              ? `whatsapp://send?text=Hello Depth Search!&phone=${contractInfo?.contact_whatsapp}`
-                              : `mailto:${contractInfo?.contact_mail}`
-                          }
-                        >
-                          <span className="contract_information">
-                            {" "}
-                            {contractInfo?.contact_number
-                              ? contractInfo?.contact_number
-                              : contractInfo?.contact_whatsapp
-                              ? contractInfo?.contact_whatsapp
-                              : contractInfo?.contact_mail}
+                    {data?.name}
+                  </span>
+                  <ul className="dropdown-menu navbarBackground text-light">
+                    {data?.dropDown?.length > 0 &&
+                      data?.dropDown.map((data) => (
+                        <li key={data?.name}>
+                          <span
+                            className="dropdown-item"
+                            onClick={() => router.push(data?.link)}
+                          >
+                            {data?.name}
                           </span>
-                        </Link>
-                      </div>
-                    </a>
-                  </li>
-                ))}
+                        </li>
+                      ))}
+                  </ul>
+                </li>
+              ))}
              
             </ul>
             

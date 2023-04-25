@@ -7,7 +7,7 @@ const Header = () => {
   
   return (
     <div className="header">
-      <Navigator searchBox={searchBox} setSearchBox={setSearchBox} />
+     
       <Search searchBox={searchBox} />
       <HeaderContent/>
     </div>
