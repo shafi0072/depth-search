@@ -18,7 +18,7 @@ const Services = () => {
         </div>
         <div className="row mt-4">
           {service_data?.map((data, index) => (
-            <div key={index} className="col-md-4 mt-3 mb-3">
+            <div key={index} className="col-md-3 mt-3 mb-3 pb-5">
               <Card
                 title={data?.title}
                 icon={data?.icon}

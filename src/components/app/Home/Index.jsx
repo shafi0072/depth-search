@@ -10,6 +10,7 @@ import Team from './Team';
 import Review from './Review';
 import Contract from './Contract';
 import Footer from './Footer';
+import Partner from './Partner';
 
 
 const index = () => {
@@ -23,6 +24,7 @@ const index = () => {
       <AboutFeedBack/>
       <Services/>
       <Facts/>
+      <Partner/>
       <Team/>
       <Review/>
       <Contract/>

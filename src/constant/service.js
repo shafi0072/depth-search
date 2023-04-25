@@ -7,24 +7,9 @@ export const service_data = [
     discription: "You will get Full Stack Web Developer With the best services and affordable price point with unlimited revision... ",
     link:'/web_services'
   },
-  {
-    icon: "https://download.logo.wine/logo/React_(web_framework)/React_(web_framework)-Logo.wine.png",
-    title:"React.Js",
-    discription: "You will get Full Stack Web Developer With the best services and affordable price point with unlimited revision... ",
-    link:'/web_services'
-  },
-  {
-    icon: "https://download.logo.wine/logo/React_(web_framework)/React_(web_framework)-Logo.wine.png",
-    title:"React Native",
-    discription: "You will get Full Stack Web Developer With the best services and affordable price point with unlimited revision... ",
-    link:'/web_services'
-  },
-  {
-    icon: "https://www.wedigtech.com/img/flutter-logo.png",
-    title:"Flutter",
-    discription: "You will get Full Stack Web Developer With the best services and affordable price point with unlimited revision... ",
-    link:'/web_services'
-  },
+  
+  
+  
   {
     icon: "https://cdn.magicbytesolutions.com/assets/img/common/ios-app.png",
     title:"IOS App Development",
